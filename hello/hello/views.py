@@ -3,8 +3,13 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("<h1>This is heading 1</h1> <h2>This is heading 2</h2> <h3>This is heading 3</h3>")
+    return HttpResponse("Home")
 
-def about(request):
-    return HttpResponse("About Page")
+def removepunc(request):
+    return Httpresponse("remove punc")
+
+def capfirst(request):
+    return Httpresponse("capitalize first")
+
+
 
